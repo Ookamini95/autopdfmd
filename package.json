@@ -1,0 +1,18 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pdf": "node ./scripts/pdf_reader.js",
+    "dev": "cls && node ./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.2.2",
+    "globby": "^13.1.4",
+    "pdf-parse": "^1.1.1"
+  }
+}

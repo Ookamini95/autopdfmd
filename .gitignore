@@ -1,0 +1,27 @@
+# Ignore build output
+build/
+
+# Ignore logs and backups
+*.log
+*.bak
+
+# Ignore compiled code
+*.class
+*.o
+*.pyc
+
+# Ignore package dependencies
+node_modules/
+vendor/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files
+.env
+config.ini
+
+# Ignore editor files
+*.swp
+*.swo
