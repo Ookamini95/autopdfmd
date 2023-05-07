@@ -10,6 +10,11 @@ build/
 *.o
 *.pyc
 
+# Ignore compiled resources
+*.pdf
+*.png
+*.md
+
 # Ignore package dependencies
 node_modules/
 vendor/

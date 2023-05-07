@@ -3,7 +3,6 @@ const pdf = require('pdf-parse');
 const { globSync } = require('glob');
 
 const pdfPaths = globSync('./public/temp/**/*.pdf');
-// console.log(pdfPaths)
 
 async function parsePdf(file,type='text') {
     try {
@@ -22,7 +21,7 @@ async function parsePdf(file,type='text') {
 }
 
 function _getPaths () {
-    return pdfPaths;
+    return pdfPaths.sort();
 }
 
 module.exports = {
